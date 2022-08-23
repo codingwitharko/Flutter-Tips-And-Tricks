@@ -261,7 +261,6 @@ Person("Jian", 21)
 <String>["Natasha", "Steve", "Peter", "Tony"]
   ..sort()
   ..forEach((name) => print("\n$name"));
-![image](https://user-images.githubusercontent.com/37276850/186096907-2c4bb9a7-c26c-4551-b71b-c0f5fd05d7a4.png)
 ```
 <br>
 
@@ -368,6 +367,5 @@ if (title == null) {
 }
 // User below
 title ??= "Title";
-![image](https://user-images.githubusercontent.com/37276850/186094612-f7fb41cb-3b51-4a62-a3dd-670e3e4c0e3e.png)
 
 ```
