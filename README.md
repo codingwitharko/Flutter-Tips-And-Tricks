@@ -4,6 +4,8 @@
 <br>
 <br>
 <br>
+
+
 ### 50.LayoutBuilder helps to create a widget tree that can depend on the size of the parent widget.
 
 
@@ -27,6 +29,8 @@ LayoutBuilder(
 );
 ```
 <br>
+
+
 ### 49.You can create multiple shadows for a `Text widget`.
 
 
@@ -51,6 +55,8 @@ Text('Important Text',
 
 ```
 <br>
+
+
 ### 48.You can use the `ColorFiltered` widget to apply a color filter to its child widgets.
 
 ```dart
@@ -71,6 +77,8 @@ Column(
 
 ```
 <br>
+
+
 ### 47.`AnimatedSize` is a widget that automatically transitions its size over a given duration whenever the given child’s size changes.
 
 
@@ -104,6 +112,8 @@ GestureDetector(
 ```
 
 <br>
+
+
 ### 46.You can use the `ShaderMask` widget to apply a `gradient` look and feel to its child.
 
 
@@ -125,6 +135,8 @@ Center(
 
 ```
 <br>
+
+
 ### 45.You can create a circular icon button using `ElevatedButton`. 
 
 ```dart
@@ -143,6 +155,8 @@ ElevatedButton(
 
 ```
 <br>
+
+
 ### 44.Use the `barrierDismissible` property to prevent dismissing the `AlertDialog` when the user taps on the screen outside the alert box.
 
 
@@ -172,6 +186,8 @@ showDialog<String>(
 
 ```
 <br>
+
+
 ### 43.You can provide an action label in `SnackBar` to act when `pressed` on it as below
 
 
@@ -188,6 +204,8 @@ final snackBar = SnackBar(
 );
 ```
 <br>
+
+
 ### 42.Center the FloatingActionButton by setting the floatingActionButtonLocation parameter as below
 
 
@@ -208,6 +226,8 @@ Scaffold(
 
 ```
 <br>
+
+
 ### 41.Use the `ListView` to create a `horizontal` list by setting the scrollDirection parameter to `Axis.horizontal`
 
 
@@ -223,6 +243,8 @@ ListView(
 
 ```
 <br>
+
+
 ### 40.There are `four` different ways to append or concatenate Strings
 Using ‘+’ operator
 ```dart
@@ -264,6 +286,8 @@ List<String> str = ["Dart", "Is", "Fun"];
 ```
 
 <br>
+
+
 ### 39.`Getters` and `setters` are special methods that provide read and write access to an object’s properties.
 
 ```dart
@@ -287,6 +311,8 @@ void main() {
 
 ```
 <br>
+
+
 ### 38.You can pass a function as a parameter to another function.
 ```dart
 void main() {
@@ -301,6 +327,8 @@ void main() {
 
 ```
 <br>
+
+
 ### 37.Use `MediaQuery` to get information about the current device size, its orientation, and user preferences.
 
 ```dart
@@ -324,6 +352,8 @@ return orientation == Orientation.portrait
       );
 ```
 <br>
+
+
 ### 36.`SafeArea` is a padding widget that inserts its child with enough padding to keep it from being blocked by the system status bar, notches, holes, rounded corners, and others.
 
 
@@ -344,6 +374,8 @@ Widget build(BuildContext context) {
 }
 ```
 <br>
+
+
 ### 35.Use `FittedBox` to scale and fit the child widget inside. It restricts its child widgets from growing their size beyond a specific limit. It re-scales them according to the size available.
 
 ```dart
@@ -365,6 +397,8 @@ Center(
 
 ```
 <br>
+
+
 ### 34.You can have a `background color` behind a `text` and add a curve at the start and the end.
 
 
@@ -387,6 +421,8 @@ Center(
 
 ```
 <br>
+
+
 ### 33.You can use `InkWell` to create a ripple effect to produce a visual experience for touch response.
 
 ```dart
@@ -403,6 +439,8 @@ InkWell(
 );
 ```
 <br>
+
+
 ### 32.`Dart` allows you to create a `callable class` so you can call the instance of the class as a `function`
 
 
@@ -424,6 +462,8 @@ void main() {
 }
 ```
 <br>
+
+
 ### 31.`Enums` and `extension methods` can make code cleaner to read. In the example below, we are converting Enums to Strings.
 
 ```dart
@@ -440,6 +480,8 @@ void main() {
 }
 ```
 <br>
+
+
 ### 30.To write any Dart program, be it a script or a Flutter app, you must define a function called `main()`. It is the entry point of every app.
 
 
@@ -452,6 +494,8 @@ void main() {
 }
 ```
 <br>
+
+
 ### 29.Set `debugShowCheckedModeBanner to false to remove the `Debug Banner Tag`
 
 
@@ -462,6 +506,8 @@ MaterialApp(
 );
 ```
 <br>
+
+
 ### 28.Use the List class method `join()` can to join a List of any type to a String.
 
 
@@ -471,6 +517,8 @@ print(values.join()); //  dart,flutter,fun
 ![image](https://user-images.githubusercontent.com/37276850/186119951-041eaba1-0be7-473f-addb-b641a88f4cd7.png)
 ```
 <br>
+
+
 ### 27.Use themes to define a set of colors, fonts, shapes, and design styles throughout your app. It’s a way to centralize all your stylistic decisions in one place.
 
 
@@ -498,6 +546,8 @@ MaterialApp(
 
 ```
 <br>
+
+
 ### 26.get access to the index on an Item in a list, you need to convert the list to a map using the `asMap`.
 ```dart
 myList.asMap().entries.map((entry) {
@@ -507,6 +557,8 @@ myList.asMap().entries.map((entry) {
 }
 ```
 <br>
+
+
 ### 25.Use `Stack` to `overlap` widgets, The first widget will be the bottommost item, and the last widget will be the topmost item.
 ```dart
 Stack(
@@ -531,6 +583,8 @@ Stack(
 
 ```
 <br>
+
+
 ### 24.Use the `Hero` widget to animate a widget from one screen to the next. e.g., an icon on the first page flying to the second page.
 ```dart
 // Page 1
@@ -555,6 +609,8 @@ Hero(
 
 ```
 <br>
+
+
 ### 23.You can size the widgets to fit within a row or column using the `Expanded widget`.
 
 
@@ -576,6 +632,8 @@ Row(
 
 ```
 <br>
+
+
 ### 22.You can use the services library to hide the `status bar`.
 ```dart
 
@@ -591,6 +649,7 @@ void main(){
 }
 ```
 <br>
+
 ### 21.You can turn any color to a `Material Color`
 
 
