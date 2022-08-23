@@ -9,6 +9,8 @@
 ```dart
 
 ```
+<br>
+
 ### 20.You can use the `dart:io` library to write a `platform-specific` code
 
 
@@ -25,9 +27,10 @@ if (Platform.isIOS) {
 if (Platform.isAndroid) {
   doSomethingforAndroid();
 }
-![image](https://user-images.githubusercontent.com/37276850/186100334-b1330800-15ff-4cb8-ac4a-73a6439c4f3a.png)
 
 ```
+<br>
+
 ### 19.You can use the services library to lock the `device orientation`
 
 
@@ -42,9 +45,9 @@ void main() async {
 
   runApp(App());
 }
-![image](https://user-images.githubusercontent.com/37276850/186100163-248ca523-62d7-4d1d-a6d8-a91ffb5fd226.png)
-
 ```
+<br>
+
 ### 18.You can randomly select an item from a list using Random from `dart:math`
 
 
@@ -59,6 +62,8 @@ Random rnd = new Random();
 int r = min + rnd.nextInt(max - min);
 return someList[r];
 ```
+<br>
+
 ### 17. You can use `GridView.count` to create a grid that’s two tiles wide in `portrait` mode and three tiles wide in `landscape` mode
 
 ```dart
@@ -76,6 +81,7 @@ Flexible(
   ),
 );
 ```
+<br>
 
 ### 16. You can wait for the results of multiple Futures to complete using `Future.wait`
 
@@ -95,6 +101,7 @@ await Future.wait([
   api.getStuff(),
 ]);
 ```
+<br>
 
 ### 15. You can iterate through a map in a null-safe manner using entries.
 
@@ -104,6 +111,7 @@ for (var entry in items.entries) {
   print('${entry.key}: ${entry.value}');
 }
 ```
+<br>
 
 ### 14. Apply `HitTestBehavior.opaque` on `GestureDetector` to make the entire size of the gesture detector a hit region!
 
@@ -125,6 +133,7 @@ GestureDetector(
 ```
 
 You can provide Image according to your need, also you can use the box decoration properties to provide shape and border.
+<br>
 
 ### 13. Check if `release mode` or not
 
@@ -138,6 +147,7 @@ print('Is Release Mode: $kReleaseMode');
 
 
 ```
+<br>
 
 ### 12. Set `background image` to your `Container`.
 
@@ -161,6 +171,7 @@ Container(
   ),
 );
 ```
+<br>
 
 ### 11. Prefer single quotes for `strings!`
 
@@ -175,6 +186,7 @@ print('Hello ${name.split(" ")[2]}');
 
 ```
 
+<br>
 
 ### 10. Implement `assert()` messages in Dart.
 
@@ -185,6 +197,7 @@ Do you know that you can throw your message when your assert fails? `assert()` t
 assert(title != null, "Title string cannot be null.");
 ```
 
+<br>
 
 ### 9. Having trouble displaying `splashes` using an `InkWell`?
 Use an Ink widget! The Ink widget draws on the same widget that InkWell does, so the splash appears.
@@ -205,6 +218,7 @@ class InkWellCard extends StatelessWidget {
   }
 }
 ```
+<br>
 
 ### 8.Want to `log data` on the system `console` in Flutter?
 
@@ -212,6 +226,7 @@ class InkWellCard extends StatelessWidget {
 You can use the `print()` function to view it in the system console. If your output is too much, then Android sometimes discards some log lines. To avoid this, you can use `debugPrint()`.
 You can also log your print calls to disk if you're doing long-term or background work.
 
+<br>
 
 
 ### 7. `Cascade` Notation - Method Chaining on Steroids
@@ -246,6 +261,8 @@ Person("Jian", 21)
   ..forEach((name) => print("\n$name"));
 ![image](https://user-images.githubusercontent.com/37276850/186096907-2c4bb9a7-c26c-4551-b71b-c0f5fd05d7a4.png)
 ```
+<br>
+
 ### 6. Want to set different Theme for a particular widget?
 Just wrap the widget with the Theme Widget and pass the ThemeData().
 
@@ -267,6 +284,7 @@ Theme(
 )
 
 ```
+<br>
 
 ### 5. Use a `Ternary` operator instead of the `if-else` to shorter your Dart code.
 
@@ -295,6 +313,7 @@ void main() {
   print("Device Type: " + getDeviceType());
 }
 ```
+<br>
 
 ### 4. Apply style as a Theme in a `Text` widget!
 
@@ -318,6 +337,7 @@ Adding = null is redundant and unneeded.
   var title = null;
 
 ```
+<br>
 
 ### 2. Using `ListView.separated()`
 Want to add the separator in your Flutter ListView?
@@ -332,6 +352,7 @@ ListView.separated(
   separatorBuilder:(ctx, i) =>const Divider(),
 );
 ```
+<br>
 
 ### 1. Using `null-aware operators`
 While checking the null in the Dart, Use null-aware operators help you reduce the amount of code required to work with references that are potentially null.!
