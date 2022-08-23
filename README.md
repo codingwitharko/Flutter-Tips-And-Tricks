@@ -133,6 +133,8 @@ GestureDetector(
 ```
 
 You can provide Image according to your need, also you can use the box decoration properties to provide shape and border.
+
+<br>
 <br>
 
 ### 13. Check if `release mode` or not
@@ -323,6 +325,7 @@ Text(
   style: Theme.of(context).textTheme.title,
 )
 ```
+<br>
 
 ### 3. Do not explicitly initialize variables to `null`.
 
