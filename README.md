@@ -1,7 +1,7 @@
 ### 100+ Flutter Tips And Tricks
  A Collection of Flutter and Dart Tips and Tricks
 <div align="center">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+<img src=https://github.com/aref-khodabande/Flutter-Tips-And-Tricks/blob/main/1662029275056.jpg?raw=true?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 
 <br>
 <br>
